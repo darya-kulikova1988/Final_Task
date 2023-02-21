@@ -35,3 +35,12 @@ if k == 6:
         print(f'Билет с номером <{i}> --> no')
 else:
     print("Неверный номер билета")
+
+
+s = str(input('Введите шестизначное число: '))
+a = int(s[0])+int(s[1])+int(s[2])
+b = int(s[3])+int(s[4])+int(s[5])
+if a == b:
+    print('Yes')
+else:
+    print('No')
