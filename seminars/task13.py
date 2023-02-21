@@ -13,10 +13,8 @@
 
 import random
 numbers = []
-a = -50
-b = 50
 for _ in range(10):
-    numbers.append(random.randint(a, b))
+    numbers.append(random.randint(50, -50))
 print(numbers)
 count = 0
 countmax = 0
