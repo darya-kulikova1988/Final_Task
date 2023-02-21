@@ -10,3 +10,9 @@ while 2**(i+1) < n:
     s = s+' ' + str(2**(i+1))
     i = i+1
 print(f'{n} --> {s}')
+
+# n = int(input())
+# i = 0
+# while 2 ** i <= n:
+#     print(2 ** i)
+#     i += 1
