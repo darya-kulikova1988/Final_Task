@@ -10,9 +10,9 @@
 
 print("Введите количество сделанных журавликов: ")
 s = int(input())
-if s % 3 == 0:
-    boy = s/3/2
-    girl = s/3*2
+if s % 6 == 0:
+    boy = s/6
+    girl = s/6*4
     print(f'{s} -- > {int(boy)} {int(girl)} {int(boy)}')
 else:
     print("Невозможно решить задачу")
