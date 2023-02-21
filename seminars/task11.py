@@ -18,4 +18,7 @@ while a < n:
     i += 1
     if a > n:
         i = 0
-print(i)
+if i == 0:
+    print(-1)
+else:
+    print(i)
