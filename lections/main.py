@@ -83,9 +83,19 @@
 #     print(line)
 
 # //
-# text = 'СъЕШЬ ещё этих МяГкИх французских булок'
-# print(len(text))
+text = 'СъЕШЬ ещё этих МяГкИх французских булок'
+print(len(text))
 # print(text.upper())
 # print(text.lower())
 # print(text.replace('ещё', 'ЕЩЁ'))
 # print('ещё' in text)
+print(text[len(text)-1])
+print(text[-1])
+print(text[:])  # вывод всех символов
+print(text[:2])  # символы с индексами до 2
+print(text[20:])  # вывод до конца
+print(text[20:30])  # вывод с указанного элемента до указанного, не включая
+print(text[0:len(text):6])  # вывод каждого 6-го элемента (с шагом 6)
+print(text[::6])  # то же самое
+text = text[2:9]+text[-1]+text[2]
+print(text)
