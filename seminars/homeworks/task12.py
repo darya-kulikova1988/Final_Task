@@ -10,9 +10,16 @@
 # 7 12  -> 3 4
 # 11 30 -> 5 6
 
-s = int(input("Введите сумму чисел S: "))
-p = int(input("Введите произведение чисел P: "))
-d = s*s-4*(p)
-x1 = int((s+pow(d, 0.5))/2)
-x2 = int((s-pow(d, 0.5))/2)
-print(f'{s} {p} --> {x1} {x2}')
+# s = int(input("Введите сумму чисел S: "))
+# p = int(input("Введите произведение чисел P: "))
+# d = s*s-4*(p)
+# x1 = int((s+pow(d, 0.5))/2)
+# x2 = int((s-pow(d, 0.5))/2)
+# print(f'{s} {p} --> {x1} {x2}')
+
+x = int(input())
+y = int(input())
+for i in range(x):
+    for j in range(y):
+        if x == i + j and y == i * j:
+            print(i, j)
