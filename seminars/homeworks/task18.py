@@ -16,8 +16,9 @@ for _ in range(n):
     m.append(random.randint(0, 5))
 print(m)
 x = int(input("Введите число X от 1 до 5: "))
-d_min = 0
+d_min = sum(m)
 for i in m:
-    if x-i or i-x < d_min:
+    if abs(x-i) < d_min:
+        d_min = abs(x-i)
         i_min = i
-print(i_min)
+print(f'Самый близкий по величине элемент к числу {x} --> {i_min}')
