@@ -65,16 +65,16 @@
 # # a, b = 1, 2
 # # print(a, b)
 
-# a, b, c = v
-# print(a, b, c)
+a, b, c = v
+print(a, b, c)
 
 # t = (1, 2, 3, 5,)
 # for i in t:
 #     print(i)
 
-t = (1, 2, 3, 5,)
-for i in range(len(t)):
-    print(t[i])
+# t = (1, 2, 3, 5,)
+# for i in range(len(t)):
+#     print(t[i])
 
 # v = [1, 2, 3, 5]
 # v[0] = 2
