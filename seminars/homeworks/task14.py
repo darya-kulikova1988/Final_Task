@@ -6,7 +6,7 @@
 n = int(input("Введите число N: "))
 i = 0
 s = str(2**i)
-while 2**(i+1) < n:
+while 2**(i+1) <= n:
     s = s+' ' + str(2**(i+1))
     i = i+1
 print(f'{n} --> {s}')
