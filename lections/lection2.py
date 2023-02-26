@@ -72,9 +72,9 @@
 # for i in t:
 #     print(i)
 
-# # t = (1, 2, 3, 5,)
-# # for i in range(len(t)):
-# #     print(t[i])
+t = (1, 2, 3, 5,)
+for i in range(len(t)):
+    print(t[i])
 
 # v = [1, 2, 3, 5]
 # v[0] = 2
@@ -115,7 +115,7 @@
 #     # print(item)
 
 # for (k, v) in dictionary.items():  # где k- ключ, v- значение
-#     print(k, v)
+#     print(v)
 # print(dictionary.items())
 
 # Множества
@@ -162,18 +162,18 @@
 
 # Создать список, состоящий из четных чисел от 1 до 100
 # список от 1 до 100
-list_1 = []
-for i in range(1, 101):
-    list_1.append(i)
+# list_1 = []
+# for i in range(1, 101):
+#     list_1.append(i)
 # print(list_1)
 
-list_2 = [i for i in range(1, 101)]
+# list_2 = [i for i in range(1, 101)]
 # print(list_2)
 # if list_1 == list_2:
 #     print('Yes')
 
-list_3 = [(i, i*i) for i in range(1, 101) if i % 2 == 0]
-print(list_3)
+# list_3 = [(i, i*i) for i in range(1, 101) if i % 2 == 0]
+# print(list_3)
 
-list_4 = [i*2 for i in range(10) if i % 2 == 0]
-print(list_4)
+# list_4 = [i*2 for i in range(10) if i % 2 == 0]
+# print(list_4)
