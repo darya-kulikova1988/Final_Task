@@ -17,9 +17,23 @@ import random
 n = int(input("Введите количество кустов: "))
 m = []
 for i in range(n):
-    m.append(random.randint(0, 20))
-
-for i in range(n+1):
-    m.append(i)
-print(m[1:])
-print(m[0])
+    m.append(random.randint(0, 10))
+print(m)
+sum = 0
+max_sum = 0
+i = 0
+while i < n:
+    if i < n-2:
+        sum = m[i]+m[i+1]+m[i+2]
+        if sum > max_sum:
+            max_sum = sum
+    if i == n-2:
+        sum = m[i]+m[i+1]+m[0]
+        if sum > max_sum:
+            max_sum = sum
+    if i == n-1:
+        sum = m[i]+m[0]+m[1]
+        if sum > max_sum:
+            max_sum = sum
+    i += 1
+print(max_sum)
