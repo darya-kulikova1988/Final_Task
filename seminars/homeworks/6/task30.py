@@ -17,11 +17,3 @@ for i in range(q-1):
     m.append(first+dif+x)
     x += dif
 print(m)
-
-
-# i = 1
-# while i < 5:
-#     m[i] = m[0]+2
-#     print(m[i])
-#     i += 1
-# print(m)
