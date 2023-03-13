@@ -31,8 +31,8 @@ print(count)
 #         count += 1
 # print(count)
 
-
-# list_1 = [print(m[:(len(m)-1)//2])]
+# list_1 = m[:2]
+# # list_1 = [print(m[:(len(m)-1)//2])]
 # print(list_1)    # как сделать, чтобы list_1 заполнялся через срез?
 
 # if len(m) % 2 == 0:
